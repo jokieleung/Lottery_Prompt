@@ -2,7 +2,7 @@
 
 This repository is the Pytorch implementation of our paper "[Prompts Can Play Lottery Tickets Well: Achieving Lifelong Learning Information Extraction via Lottery Prompt Tuning](https://aclanthology.org/2023.acl-long.16.pdf)" in ACL 2023.
 
-In this paper, we study the UIE system under a more challenging yet practical scenario, i.e., “lifelong learning” settings, to evaluate its abilities in three aspects, including knowledge sharing and expansion, catastrophic forgetting prevention, and rapid generalization on few-shot and unseen tasks.To achieve these three goals, we present a novel parameter- and deployment-efficient prompt tuning method namely Lottery Prompt Tuning (LPT).LPT freezes the PLM’s parameters and sequentially learns compact pruned prompt vectors for each task leveraging a binary prompt mask, while keeping the prompt parameters selected by the previous tasks insusceptible.
+In this paper, we study the UIE system under a more challenging yet practical scenario, i.e., “lifelong learning” settings, to evaluate its abilities in three aspects, including knowledge sharing and expansion, catastrophic forgetting prevention, and rapid generalization on few-shot and unseen tasks. To achieve these three goals, we present a novel parameter- and deployment-efficient prompt tuning method namely Lottery Prompt Tuning (LPT). LPT freezes the PLM’s parameters and sequentially learns compact pruned prompt vectors for each task leveraging a binary prompt mask, while keeping the prompt parameters selected by the previous tasks insusceptible.
 
 Coming soon!
 
